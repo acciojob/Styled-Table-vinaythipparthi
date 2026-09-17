@@ -1,1 +1,35 @@
-/* your code */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table Header */
+thead {
+    background-color: #216394;
+    color: white;
+}
+
+th {
+    padding: 12px;
+    text-align: left;
+    font-size: 12px;
+}
+
+/* Table Body */
+td {
+    padding: 12px;
+    text-align: left;
+    font-size: 12px;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(odd) {
+    background-color: #f5f5f5;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d3d3d3;
+}
